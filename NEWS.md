@@ -1,5 +1,6 @@
 # influenceR 0.1.4
 * Add badges to README
+* Update documentation with Rd.
 
 # influenceR 0.1.3
 
