@@ -23,5 +23,5 @@ bridging(ig.ex) # bridging scores for each node in the graph
 
 }
 \references{
-\url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2889704/}
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2889704/}
 }

@@ -27,5 +27,5 @@ betweenness(ig.ex) # betweenness scores for each node in the graph
 
 }
 \references{
-\url{http://snap-graph.sourceforge.net/}
+\url{https://snap-graph.sourceforge.net/}
 }

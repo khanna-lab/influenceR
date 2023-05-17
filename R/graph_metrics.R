@@ -16,7 +16,7 @@
 #' @export
 csv.to.igraph <- function(fname) {
     x <- utils::read.csv(fname) # this may be dangerous because of users' settings.
-                         # See: http://r-pkgs.had.co.nz/r.html
+                         # See: https://r-pkgs.had.co.nz/r.html
     el <- as.matrix(x[c(1,2)])
     if(!is.character(el))
       el <- apply(el, 2, as.character)
@@ -32,7 +32,7 @@ csv.to.igraph <- function(fname) {
 #' the igraph betweenness function. The SNAP version makes use of OpenMP for 
 #' parallelization, and may be faster in some circumstances.
 #'
-#' @references \url{http://snap-graph.sourceforge.net/}
+#' @references \url{https://snap-graph.sourceforge.net/}
 #'
 #' @param g The igraph object to analyze
 #' @param snap True to use the SNAP betweenness code, False to use igraph::betweenness
@@ -159,7 +159,7 @@ keyplayer <- function(g, k, prob = 0.0, tol = 0.0001, maxsec = 120, roundsec = 3
 #' where a node's bridging score is the average decrease in cohesiveness if each of
 #' its edges were removed from the graph.
 #' 
-#' @references \url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2889704/}
+#' @references \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2889704/}
 #'
 #' @param g The igraph object to analyze.
 #' @return A numeric vector with the bridging score for each vertex
