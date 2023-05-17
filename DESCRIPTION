@@ -1,6 +1,6 @@
 Package: influenceR
 Title: Software Tools to Quantify Structural Importance of Nodes in a Network
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: c(
     person("Jacobs", "Simon", email = "sdjacobs@uchicago.edu", role = "aut"),
     person("Khanna", "Aditya", email = "khanna7.work@gmail.com", role = c("aut", "cre")),

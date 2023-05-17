@@ -1,3 +1,6 @@
+# influenceR 0.1.4
+* Add badges to README
+
 # influenceR 0.1.3
 
 * Updated maintainer email
