@@ -21,7 +21,9 @@
 #include <math.h>
 #include <sys/time.h>
 #ifdef _OPENMP
+#undef match
 #include <omp.h>
+#define match Rf_match
 #define OMP(x) _Pragma(x)
 #else
 #define OMP(x)
