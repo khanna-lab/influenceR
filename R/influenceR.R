@@ -11,7 +11,7 @@
 #' In addition to igraph, this package makes use of the SNAP framework for a
 #' high-performance graph data structure and an OpenMP-parallelized
 #' implementation of Betweenness Centrality. See
-#' \url{http://snap-graph.sourceforge.net}
+#' \url{https://snap-graph.sourceforge.net}
 #' 
 #' @section Funding:
 #' Development of this software package was supported by NIH grant R01 DA033875.
