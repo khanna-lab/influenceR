@@ -25,5 +25,5 @@ Imports:
 NeedsCompilation: yes
 Suggests:
     testthat
-URL: https://github.com/rcc-uchicago/influenceR
+URL: https://github.com/khanna-lab/influenceR
 
