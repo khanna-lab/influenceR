@@ -115,7 +115,7 @@ betweenness <- function(g, snap=T) {
 #' of time, the workers synchronize their sets S to the one which maximizes
 #' the metric.
 #'
-#' @references \url{http://www.bebr.ufl.edu/sites/default/files/Borgatti\%20-\%202006\%20-\%20Identifying\%20sets\%20of\%20key\%20players\%20in\%20a\%20social\%20networ.pdf}
+#' @references \url{https://link.springer.com/article/10.1007/s10588-006-7084-x}
 #'
 #' @param g The igraph object to analyze.
 #' @param k The size of the KP-set
@@ -194,7 +194,7 @@ bridging <- function(g) {
 #' ig.ex <- igraph::erdos.renyi.game(100, p.or.m=0.3) # generate an undirected 'igraph' object
 #' ens(ig.ex) # Effective Network Size scores for each node in the graph
 #'
-#' @references \url{http://faculty.chicagobooth.edu/ronald.burt/research/files/NNappB.pdf}
+#' @references \url{https://www.sciencedirect.com/science/article/abs/pii/S0378873397000038}
 #' @export
 ens <- function(g) {
   if (!igraph::is_igraph(g)) {

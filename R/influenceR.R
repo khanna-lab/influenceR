@@ -17,7 +17,7 @@
 #' Development of this software package was supported by NIH grant R01 DA033875.
 #' 
 #' @section References:
-#' The website and source code is located at \url{http://github.com/rcc-uchicago/influenceR}.
+#' The website and source code is located at \url{https://github.com/khanna-lab/influenceR}.
 #'
 #' @docType package
 #' @name influenceR
