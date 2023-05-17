@@ -21,7 +21,7 @@ double * BFS_single(graph_t *g, int src, double *res);
 long BFS_parallel_frontier_expansion_with_distance(graph_t* G, long src, long diameter, double *distance);
 void regen(int *gen, int *s, int *t, int n, int k);
 
-int int_rand() {
+int int_rand(void) {
   return (int) (unif_rand() * INT_MAX);
 }
 

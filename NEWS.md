@@ -1,6 +1,7 @@
 # influenceR 0.1.4
 * Add badges to README
 * Update documentation with Rd.
+* include prototype in int_rand() function declaration in keyplayer-utils.c 
 
 # influenceR 0.1.3
 
