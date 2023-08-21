@@ -2,6 +2,7 @@ Package: influenceR
 Title: Software Tools to Quantify Structural Importance of Nodes in a Network
 Version: 0.1.6
 Author: Simon Jacobs [aut], Aditya Khanna [aut, cre], Kamesh Madduri [ctb], David Bader [ctb]
+Encoding: UTF-8
 Maintainer: Aditya Khanna <khanna7.work@gmail.com>
 Description: Provides functionality to compute various node centrality measures on networks.
     Included are functions to compute betweenness centrality (by utilizing Madduri and Bader's
