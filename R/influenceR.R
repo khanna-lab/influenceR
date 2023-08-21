@@ -19,8 +19,7 @@
 #' @section References:
 #' The website and source code is located at \url{https://github.com/khanna-lab/influenceR}.
 #'
-#' @docType package
-#' '_PACKAGE
+#' _PACKAGE
 #' @name influenceR
 #' @useDynLib influenceR
 NULL
