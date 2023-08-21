@@ -1,3 +1,6 @@
+# influenceR 0.1.6
+* package sentinel for roxygen2 7.0.0 compatability
+
 # influenceR 0.1.5
 * Add badges to README
 * Update documentation with Rd.
